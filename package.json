@@ -15,7 +15,7 @@
     ]
   },
   "scripts": {
-    "start": "npm run serve",
+    "start": "npm run build-ts && npm run serve",
     "dev": "nodemon --inspect dist/server.js",
     "build": "npm run build-ts && npm run tslint && npm run copy-static-assets",
     "serve": "node dist/server.js",
